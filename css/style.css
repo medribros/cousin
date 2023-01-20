@@ -1,0 +1,546 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+	margin: 0px;
+}
+header {
+	height: 	100vh;
+	background: 	floralwhite;
+	display: flex;
+	width: 100%;
+	
+}
+.header-content {
+	width: 100%;
+	
+	
+
+
+
+}
+.contfull {
+	width: 90%;
+	margin: auto;
+}
+.todo {
+	position: relative;
+
+	width: 500px;
+	height: 1000px;
+	
+	
+
+}
+h1{
+	font-family: 'Rock Salt';
+
+	position: relative;
+	top: 	0px;
+	z-index: 1;
+	font-size: 	50px;
+	bottom: 0px;
+
+
+}
+
+.guitarone {
+	height: 	150px;
+ width : 150px;
+ position: absolute;
+ 	top: 	0px;
+background: 	darkorange;
+
+ border-radius: 100%;
+ 
+z-index: 0;
+ left: 	390px;
+}
+
+.amplifier2 {
+	height: 250px;
+	width: 250px;
+	z-index: 	0;
+	position: absolute	;
+	right: 30%;
+	
+}
+
+.amplifier3 {
+	width: 250px;
+	height: 	250px;
+	right: -90px;
+	position: absolute	;
+	top: 	500px;
+	rotate: 20deg;
+	border: 2px solid darkorange	;
+	padding: 20px;
+	border-radius: 100%;
+}
+
+.amplifier4 {
+	position: absolute;
+	height: 230px;
+	border-radius: 	100% 100% 100% 20%;
+		border: 2px solid darkorange	;
+	padding: 20px;
+	width: 230px;
+	right: -310px;
+
+	rotate: 20deg;
+	top: 	430px;
+	z-index: 	3;
+}
+
+.amplifier5 {
+		position: absolute;
+	height: 200px;
+	border-radius: 	100% 100% 20% 100%;
+		border: 2px solid darkorange	;
+	padding: 20px;
+	width: 200px;
+	right: 130px;
+
+	rotate: -20deg;
+	top: 	430px;
+	z-index: 	3;
+}
+
+.amplifier6 {
+		position: absolute;
+	height: 200px;
+	border-radius: 	100% 100% 20% 100%;
+		border: 2px solid darkorange	;
+
+	padding: 20px;
+	width: 200px;
+	right: -70px;
+
+	rotate: 40deg;
+	top: 	320px;
+	z-index: 	3;
+}
+
+.mic1 {
+	width: 150px;
+	height: 	150px;
+	bottom: 0px;
+	top: 	200px;
+	
+	display: 	none;
+	padding: 20px;
+
+	right: 250px;
+
+	position: absolute	;
+}
+
+
+h2 {
+	font-family: 	'Rock Salt';
+	text-align: 	center;
+	width: 100%;
+}
+
+.skills	{
+	display: flex;
+	flex-wrap: 	wrap	;
+	justify-content: space-evenly;
+	background: 	papayawhip;
+	padding: 40px;
+	margin-top: 250px;
+	box-shadow: 5px 5px 20px 0px;
+	
+
+}
+.javascript-content {
+	
+
+	background: 	navajowhite;
+	border-radius: 	10px;
+	border-right: 5px solid darkorange;
+	width: 350px;
+	cursor: pointer;
+	display: 	flex;
+	justify-content: 	center;
+	margin-top: 	20px;
+
+}
+
+.javascript-content:hover {
+	background: 	darkorange	;
+	transition: 	3s all ease;
+}
+.java-img {
+	height: 	100px;
+	width: 	100px;
+	padding: 	10px;
+	
+}
+.java-img-boot {
+	
+	background: 	navajowhite;
+	border-radius: 	10px;
+	padding: 10px;
+	cursor: pointer;
+	
+	
+		height: 	100px;
+	width: 	100px;
+}
+
+hr {
+	height: 5px;
+	width: 50%;
+	margin: 	auto;
+	
+	background: 	orange;
+
+}
+
+
+.works-link {
+	text-decoration: none;
+	font-family: 'Rock Salt';
+	color: 	black;
+	padding: 	1px;
+
+	border-radius: 	10px;
+	font-size: 	25px;
+
+	position: absolute	;
+	right: 40px;
+	top: 	150px;
+	z-index: 	4;
+	rotate: 35deg;
+	margin-top: 	30px;
+
+}
+.contact-link {
+		text-decoration: none;
+	font-family: 'Rock Salt';
+	padding: 	1px;
+
+	color: 	black	;
+	border-radius: 	10px;
+	rotate: -30deg;
+	font-size: 	25px;
+	position: absolute	;
+	z-index: 4;
+	right: -80px;
+	top: 185px;
+	}
+
+
+
+
+.contact-link:hover {
+	color: darkorange;
+
+	transition: 	2s all ease;
+}
+
+.works-link:hover {
+	color: darkorange;
+
+	transition: 	2s all ease;
+}
+
+.about-me-container {
+	width: 40%;
+	margin-top: 40px;
+	padding: 20px;
+	display: flex;
+
+
+}
+
+.introduction {
+	font-family: 'Raleway';
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	z-index: 1;
+	padding-inline: 20px;
+	margin-left: 5px;
+	border-left: 1px solid orange;
+	
+
+
+	
+
+
+}
+.intro {
+	display: flex;
+	align-items: center;
+	width: 70%;
+	border-radius: 10px;
+	
+
+}
+
+.male-img {
+	display: flex;
+	align-items: center;
+}
+
+.male {
+	width: 100px;
+	height: 100px;
+
+	background: darkorange;
+	text-align: center;
+	float: left;
+	border-radius: 100%;
+	
+
+}
+
+h4,h5	{
+	text-align: 	center;
+	font-family: 	'Rock Salt';
+	font-size: 20px;
+	width: 100%;
+	margin-top: 	20px;
+}
+.works {
+	margin-top: 	250px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 5px 5px 20px 0px;
+	background: 	antiquewhite;
+	padding: 	20px;
+	flex-wrap: wrap;
+	
+
+
+}
+
+.workuno {
+	width: 400px;
+	height: 	300px;
+	
+		border-radius: 	10px;
+	opacity: 0.8;
+
+}
+.workuno:hover {
+	opacity: 	1;
+	transition: 	2s all ease;
+
+
+}
+.contact-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: 	wrap	;
+
+}
+
+.form {
+	width: 50%;
+	background: 	rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	padding: 20px;
+		box-shadow: 	10px 5px 20px 5px;
+		margin-top: 	20px;
+}
+
+.form input[type="text"],
+textarea {
+	width: 100%;
+	outline: 	none;
+	border-bottom: 2px solid darkorange	;
+	padding: 20px;
+	color: 	black;
+	margin-top: 	20px;
+	border-radius: 10px;
+	font-family: 	'Rock Salt';
+
+}
+
+.form input[type="text"]:focus {
+	background: 	rgba(255, 165,0, 0.4);
+	transition: 	1s all ease;
+}
+
+textarea {
+	
+	max-height: 	200px;
+	min-height: 150px;
+	max-width: 100%;
+	min-width: 	100%;
+}
+
+textarea:focus {
+	background: 	rgba(255, 165,0, 0.4);
+	transition: 	1s all ease;
+}
+
+
+.btn-submit {
+text-align: 	center;
+display:block;
+margin: auto;
+padding: 	10px;
+font-family: 	'Rock Salt';
+border-radius: 10px;
+background: 	darkorange;
+margin-top: 	20px;
+cursor: pointer;
+}
+
+.btn-submit:hover {
+	background: 	white;
+	transition: 	2s all ease;
+}
+.workunocontainer {
+	
+}
+.workunocontainer p {
+	font-family: 	'Raleway';
+	font-weight: 	400;
+	font-style: italic	;
+
+
+}
+.rollinguno {
+	display: flex;
+	
+	
+	align-items: center;
+}
+
+.rollingdos {
+		display: flex;
+	justify-content: 	end;
+	
+	align-items: center;
+}
+.rlg {
+	
+	width: 500px;
+	border-radius: 10px;
+	box-shadow: 5px 10px 20px 5px;
+	margin-top: 100px;
+	opacity: 0.8;
+	text-align: 	center;
+	display: 	block;
+
+	
+	
+}
+.whom {
+	margin-left: 	20px;
+	font-family: 'Rock Salt';
+}
+
+.whom2 {
+	margin-left: 	20px;
+	font-family: 'Rock Salt';
+	width: 70%;
+}
+
+.amplicont {
+	width: 100%;
+	height: 	100%;
+}
+@media screen and (max-width: 1200px){
+	header {
+		display: 	flex;
+		height: 	100%;
+		flex-direction: column;
+	}
+	.about-me-container	{
+		width: 100%;
+		display: 	flex;
+		justify-content: 	center;
+	}
+
+	.header-content {
+		width: 100%;
+    display: flex;
+    justify-content: center;
+	}
+
+	.amplicont {
+		display: 	none;
+	
+	}
+
+	.rollinguno{
+		margin-top: 500px;
+		display: 	flex;
+		flex-wrap: wrap	;
+		justify-content: 	center;
+	}
+	.rollingdos{
+		margin-top: 500px;
+		display: 	flex;
+		flex-wrap: wrap-reverse	;
+		justify-content: 	center;
+	}
+	.whom {
+		margin-top: 	20px;
+	}
+
+	.whom2 {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	header {
+		display: 	flex;
+
+		flex-direction: column;
+	}
+	.about-me-container	{
+		width: 100%;
+	}
+
+	.header-content {
+		width: 100%;
+    display: flex;
+    justify-content: center;
+	}
+
+	.amplicont {
+		display: 	none;
+	
+	}
+
+	.rollinguno{
+		margin-top: 20px;
+	}
+
+	.todo {
+		display: 	flex;
+		justify-content: 	center;
+	}
+
+	.amplifier2 {
+		top: 400px;
+		left: 120px;
+	}
+
+	h1 {
+		top: 100px;
+	}
+
+	.guitarone {
+		top: 250px;
+		left: 	170px;
+	}
+
+	#works {
+		display: 	block;
+		width: 100%;
+		text-align: 	center;
+		rotate: 0deg;
+		margin-right: 25px;
+
+	}
+}
